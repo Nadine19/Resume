@@ -72,7 +72,7 @@ title{
     margin-bottom: 10px;
 }
 
-.projects-list {
+.projects-list{
     padding: 0;
     margin-left: 15px;
 }
@@ -208,7 +208,7 @@ title{
 
 .contacts,
 .tech-skills,
-.soft-skills {
+.soft-skills{
     margin-left: 40px;
 }
 .contacts{
@@ -256,7 +256,7 @@ title{
 }
 
 /*Small devices (landscape phones, 576px and down)*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
     .main{
         width: 100%;
         font-size: 12px;
@@ -270,18 +270,22 @@ title{
         font-size: 12px;
     }
 
-    .contact-type, .contact-link{
+    .contact-type, 
+    .contact-link{
         font-size: 8px;
         line-height: 12px;
         margin: auto;
     }
 
-    .tech-skills, .soft-skills, .contacts {
+    .tech-skills, 
+    .soft-skills, 
+    .contacts{
         margin-bottom: 15px;
         margin-left: 15px;
     }
     
-    .tech-skills-text,.soft-skills-text {
+    .tech-skills-text,
+    .soft-skills-text{
         font-size: 8px;
         line-height: 10px;
     }
@@ -291,7 +295,7 @@ title{
         padding: 5% 5%;
     }
 
-    .about-name {
+    .about-name{
         font-size: 15px;
         margin-bottom: 5px;
     }
@@ -346,22 +350,22 @@ title{
 
 
 /* Medium devices (tablets, 768px and down)*/
-@media (max-width: 768px) {
-    .main {
+@media (max-width: 768px){
+    .main{
         width: 100%;
         font-size: 12px;
     }
 
-    .sidebar {
+    .sidebar{
         width: 40%;
     }
 
-    .sidebar-title {
+    .sidebar-title{
         font-size: 12px;
     }
 
     .contact-type,
-    .contact-link {
+    .contact-link{
         font-size: 10px;
         line-height: 12px;
         margin: auto;
@@ -369,82 +373,82 @@ title{
 
     .tech-skills,
     .soft-skills,
-    .contacts {
+    .contacts{
         margin-bottom: 15px;
         margin-left: 15px;
     }
 
     .tech-skills-text,
-    .soft-skills-text {
+    .soft-skills-text{
         font-size: 8px;
         line-height: 10px;
     }
 
-    .main-content {
+    .main-content{
         width: 70%;
         padding: 5% 5%;
     }
 
-    .about-name {
+    .about-name{
         font-size: 15px;
         margin-bottom: 5px;
     }
 
-    .about-position {
+    .about-position{
         font-size: 14px;
         margin-bottom: 5px;
     }
 
-    .about-discription {
+    .about-discription{
         width: 100%;
         font-size: 12px;
         line-height: 12px;
     }
 
-    .photo {
+    .photo{
         width: 100%;
         margin-bottom: 5px;
     }
 
-    .work {
+    .work{
         margin-bottom: 15px;
     }
 
-    .work-position {
+    .work-position{
         font-size: 12px;
     }
 
-    .organization {
+    .organization{
         font-size: 10px;
     }
 
-    .work-list-item {
+    .work-list-item{
         font-size: 12px;
         line-height: 14px;
     }
 
-    .education-university {
+    .education-university{
         font-size: 10px;
         line-height: 20px;
     }
 
-    .education-position {
+    .education-position{
         font-size: 10px;
         margin-bottom: 5px;
     }
 
-    .period {
+    .period{
         font-size: 10px;
     }
 }
 
 /* Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
+@media (min-width: 992px){
     ...
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
     ...
 }
 */
