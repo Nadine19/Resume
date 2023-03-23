@@ -52,15 +52,6 @@ body{
 /* project styles */
 .projects{
     margin-bottom: 50px;
-    
-    /* margin-top: 100px;
-    margin-bottom: 300px;
-    margin-left: 60px;
-    margin-right: 90px; */
-
-    /* margin: 100px 90px 300px 60px; по годинниковій */
-    /* margin: 50px; з кожної сторони */
-    /* margin: 100px 50px; зверху-знизу право-ліво */
 }
 
 title{
@@ -109,11 +100,6 @@ title{
 /* work styles */
 .work{
     margin-bottom: 45px;
-    
-    /* padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 40px; */
 }
 
 .work-position{
@@ -164,9 +150,7 @@ title{
 }
 
 /* education styles */
-.education{
-    
-}
+
 .education-university{
     font-style: normal;
     font-weight: 700;
@@ -259,6 +243,7 @@ title{
 @media screen and (max-width: 576px){
     .main{
         width: 100%;
+        min-width: 320px;
         font-size: 12px;
     }
 
@@ -441,14 +426,3 @@ title{
         font-size: 10px;
     }
 }
-
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px){
-    ...
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px){
-    ...
-}
-*/
