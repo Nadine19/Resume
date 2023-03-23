@@ -54,7 +54,7 @@ body{
     margin-bottom: 50px;
 }
 
-title{
+.main-content__title{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -251,7 +251,8 @@ title{
         width: 40%;
     }
 
-    .sidebar__title{
+    .sidebar__title,
+    .main-content__title{
         font-size: 12px;
     }
 
@@ -345,7 +346,8 @@ title{
         width: 40%;
     }
 
-    .sidebar__title{
+    .sidebar__title,
+    .main-content__title{
         font-size: 12px;
     }
 
