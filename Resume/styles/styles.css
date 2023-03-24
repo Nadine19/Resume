@@ -54,7 +54,8 @@ body{
     margin-bottom: 50px;
 }
 
-.main-content__title{
+.work__title,
+.education__title{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -176,7 +177,9 @@ body{
     width: 370px;
 }
 
-.sidebar__title{
+.contacts__title,
+.tech-skills__title,
+.soft-skills__title{
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -251,8 +254,11 @@ body{
         width: 40%;
     }
 
-    .sidebar__title,
-    .main-content__title{
+    .contacts__title,
+    .tech-skills__title,
+    .soft-skills__title,
+    .work__title,
+    .education__title{
         font-size: 12px;
     }
 
@@ -346,8 +352,11 @@ body{
         width: 40%;
     }
 
-    .sidebar__title,
-    .main-content__title{
+    .contacts__title,
+    .tech-skills__title,
+    .soft-skills__title,
+    .work__title,
+    .education__title{
         font-size: 12px;
     }
 
