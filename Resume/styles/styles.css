@@ -7,7 +7,6 @@ body {
 /* main styles */
 .main {
     display: flex;
-    /* поміняти місцями блоки */
     flex-direction: row-reverse;
     width: 1200px;
     margin: 0 auto;
@@ -235,7 +234,7 @@ body {
     color: #FFFFFF;
 }
 
-/*Small devices (landscape phones, 576px and down)*/
+/* Small devices (landscape phones, 576px and down) */
 @media screen and (max-width: 576px) {
     .main {
         width: 100%;
@@ -335,7 +334,7 @@ body {
 }
 
 
-/* Medium devices (tablets, 768px and down)*/
+/* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
     .main {
         width: 100%;
