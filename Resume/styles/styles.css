@@ -1,11 +1,11 @@
-body{
+body {
     font-family: 'Montserrat',
     sans-serif;
     background-color: #F5F7FA;
 }
 
 /* main styles */
-.main{
+.main {
     display: flex;
     /* поміняти місцями блоки */
     flex-direction: row-reverse;
@@ -14,17 +14,17 @@ body{
 }
 
 /* main-content styles */
-.main-content{
+.main-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     padding: 105px 90px;
 }
 
 /* about styles */
-.about{ 
+.about { 
     margin-bottom: 40px; 
 }
-.about__position{
+.about__position {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -32,7 +32,7 @@ body{
     color: #000000;
     margin-bottom: 20px;
 }
-.about__name{
+.about__name {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -40,7 +40,7 @@ body{
     color: #000000;
     margin-bottom: 25px;
 }
-.about__discription{
+.about__discription {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -50,12 +50,12 @@ body{
 }
 
 /* project styles */
-.projects{
+.projects {
     margin-bottom: 50px;
 }
 
 .work__title,
-.education__title{
+.education__title {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -64,12 +64,12 @@ body{
     margin-bottom: 10px;
 }
 
-.projects-list{
+.projects-list {
     padding: 0;
     margin-left: 15px;
 }
 
-.project-item{
+.project-item {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -78,7 +78,7 @@ body{
 }
 
 .project,
-.project-link{
+.project-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -86,11 +86,11 @@ body{
     color: #595959;
 }
 
-.project-link{
+.project-link {
     margin-left: 10px;
 }
 
-.project-brecket{
+.project-brecket {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -99,11 +99,11 @@ body{
 }
 
 /* work styles */
-.work{
+.work {
     margin-bottom: 45px;
 }
 
-.work__position{
+.work__position {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -112,7 +112,7 @@ body{
     margin-bottom: 10px;
 }
 
-.organization{
+.work__organization {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -120,7 +120,8 @@ body{
     color: #FB6D3A;
 }
 
-.period{
+.work__period,
+.education__period {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -129,20 +130,14 @@ body{
     margin-bottom: 10px;
 }
 
-.line{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #000000;
-}
 
-.work__list{
+
+.work__list {
     padding: 0;
     margin-left: 15px;
 }
 
-.work__list-item{
+.work__list-item {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -152,7 +147,7 @@ body{
 
 /* education styles */
 
-.education__university{
+.education__university {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -161,7 +156,7 @@ body{
     margin-bottom: 10px;
 }
 
-.education__position{
+.education__position {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -171,7 +166,7 @@ body{
 }
 
 /* sidebar styles */
-.sidebar{
+.sidebar {
     background-color: #1E2939;
     padding-top: 40px;
     width: 370px;
@@ -179,7 +174,7 @@ body{
 
 .contacts__title,
 .tech-skills__title,
-.soft-skills__title{
+.soft-skills__title {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -188,25 +183,25 @@ body{
     margin-bottom: 10px;
 }
 
-.sidebar__photo{
+.sidebar__photo {
     width: 370px;
     margin-bottom: 50px;
 }
 
 .contacts,
 .tech-skills,
-.soft-skills{
+.soft-skills {
     margin-left: 40px;
 }
-.contacts{
+.contacts {
     margin-bottom: 50px;
 }
 
-.tech-skills{
+.tech-skills {
     margin-bottom: 45px;
 }
 
-.contact__type{
+.contact__type {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -214,7 +209,7 @@ body{
     line-height: 24px;
     margin-right: 10px;
 }
-.contact__link{
+.contact__link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -222,19 +217,19 @@ body{
     color: #727983;
 }
 .tech-skills__list,
-.soft-skills__list{
+.soft-skills__list {
     color: #FFFFFF;
     padding: 0;
     margin-left: 17px;
 }
 
 .tech-skills__list-item,
-.soft-skills__list-item{
+.soft-skills__list-item {
     color: #FB6D3A;
 }
 
 .tech-skills__text,
-.soft-skills__text{
+.soft-skills__text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -243,14 +238,14 @@ body{
 }
 
 /*Small devices (landscape phones, 576px and down)*/
-@media screen and (max-width: 576px){
-    .main{
+@media screen and (max-width: 576px) {
+    .main {
         width: 100%;
         min-width: 320px;
         font-size: 12px;
     }
 
-    .sidebar{
+    .sidebar {
         width: 40%;
     }
 
@@ -258,12 +253,12 @@ body{
     .tech-skills__title,
     .soft-skills__title,
     .work__title,
-    .education__title{
+    .education__title {
         font-size: 12px;
     }
 
     .contact__type, 
-    .contact__link{
+    .contact__link {
         font-size: 8px;
         line-height: 12px;
         margin: auto;
@@ -271,84 +266,85 @@ body{
 
     .tech-skills, 
     .soft-skills, 
-    .contacts{
+    .contacts {
         margin-bottom: 15px;
         margin-left: 15px;
     }
     
     .tech-skills__text,
-    .soft-skills__text{
+    .soft-skills__text {
         font-size: 8px;
         line-height: 10px;
     }
 
-    .main-content{
+    .main-content {
         width: 70%;
         padding: 5% 5%;
     }
 
-    .about__name{
+    .about__name {
         font-size: 15px;
         margin-bottom: 5px;
     }
 
-    .about__position{
+    .about__position {
         font-size: 14px;
         margin-bottom: 5px;
     }
 
-    .about__discription{
+    .about__discription {
         width: 100%;
         font-size: 10px;
         line-height: 10px;
     }
 
-    .sidebar__photo{
+    .sidebar__photo {
         width: 100%;
         margin-bottom: 5px;
     }
 
-    .work{
+    .work {
         margin-bottom: 15px;
     }
 
-    .work__position{
+    .work__position {
         font-size: 10px;
     }
 
-    .organization{
+    .work__organization {
         font-size: 10px;
     }
 
-    .work__list-item{
+    .work__list-item {
         font-size: 10px;
         line-height: 14px;
     }
 
-    .education__university{
+    .education__university {
         font-size: 10px;
         line-height: 20px;
     }
 
-    .education__position{
+    .education__position {
         font-size: 10px;
         margin-bottom: 5px;
     }
 
-    .period{
+    .work__period,
+    .education__period {
         font-size: 8px;
     }
 }
 
 
 /* Medium devices (tablets, 768px and down)*/
-@media (max-width: 768px){
-    .main{
+@media (max-width: 768px) {
+    .main {
         width: 100%;
         font-size: 12px;
     }
 
-    .sidebar{
+    .sidebar {
         width: 40%;
     }
 
@@ -356,12 +352,12 @@ body{
     .tech-skills__title,
     .soft-skills__title,
     .work__title,
-    .education__title{
+    .education__title {
         font-size: 12px;
     }
 
     .contact__type,
-    .contact__link{
+    .contact__link {
         font-size: 10px;
         line-height: 12px;
         margin: auto;
@@ -369,71 +365,72 @@ body{
 
     .tech-skills,
     .soft-skills,
-    .contacts{
+    .contacts {
         margin-bottom: 15px;
         margin-left: 15px;
     }
 
     .tech-skills__text,
-    .soft-skills__text{
+    .soft-skills__text {
         font-size: 8px;
         line-height: 10px;
     }
 
-    .main-content{
+    .main-content {
         width: 70%;
         padding: 5% 5%;
     }
 
-    .about__name{
+    .about__name {
         font-size: 15px;
         margin-bottom: 5px;
     }
 
-    .about__position{
+    .about__position {
         font-size: 14px;
         margin-bottom: 5px;
     }
 
-    .about__discription{
+    .about__discription {
         width: 100%;
         font-size: 12px;
         line-height: 12px;
     }
 
-    .sidebar__photo{
+    .sidebar__photo {
         width: 100%;
         margin-bottom: 5px;
     }
 
-    .work{
+    .work {
         margin-bottom: 15px;
     }
 
-    .work__position{
+    .work__position {
         font-size: 12px;
     }
 
-    .organization{
+    .work__organization {
         font-size: 10px;
     }
 
-    .work__list-item{
+    .work__list-item {
         font-size: 12px;
         line-height: 14px;
     }
 
-    .education__university{
+    .education__university {
         font-size: 10px;
         line-height: 20px;
     }
 
-    .education__position{
+    .education__position {
         font-size: 10px;
         margin-bottom: 5px;
     }
 
-    .period{
+    .work__period,
+    .education__period {
         font-size: 10px;
     }
 }
